@@ -25,12 +25,6 @@
         margin: 5% 0;
     }
 
-    #footer-contact {
-        position: fixed;
-        bottom: 0;
-        width: 95%;
-    }
-
     .footer__link-wrapper {
         padding: 4% 3% 2%;
         border-top-left-radius: 250px;
@@ -88,14 +82,18 @@
         top: 5%;
     }
 
-    .footer {
-        margin-top: 15%;
-    }
-
     a {
         font-weight: 500;
         font-size: 1rem;
         letter-spacing: 2px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 94%;
+        z-index: 11;
+        padding: 0 3%;
     }
 
     .footer__link-red {
