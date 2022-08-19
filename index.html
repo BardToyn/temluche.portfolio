@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Tasya photography portfolio | Home</title>
+    <meta name="description" content="My Portfolio">
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <a href="#" class="header__link-logo">
+                TayaSukhodubova
+                <span class="header__link-logo-min">photography</span>
+            </a>
+            <a href="pages/about.html" class="header__link" id="aboutLink">
+                about
+            </a>
+            <button class="header__burger-btn">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </button>
+        </header>
+        <div class="section-wrapper">
+            <h1 class="section-heading-index">
+                <div class="section-heading-span">Taya</div>Sukhodubova
+            </h1>
+            <div class="slider-wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/5.jpg"/>
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/3.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/11.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/1.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/2.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/4.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/6.jpg" alt="photo">
+                        </div>
+                        <div class="swiper-slide" onclick="openModal()">
+                            <img class="swiper-photo" src="images/Photo/7.jpg" alt="photo">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrapper" id="modal">
+            <div class="slideshow-container">
+                <a class="close-modal" onclick="closeModal()">&#x2715;</a>
+                <div class="mySlides">
+                    <img class="modal-photo" id="photoOne" src="images/Photo/5.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/3.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/11.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/1.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/2.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/4.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/6.jpg"/>
+                </div>
+                <div class="mySlides">
+                    <img class="modal-photo" src="images/Photo/7.jpg"/>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <a href="pages/allphoto.html" class="footer__link">
+                    projects
+                </a>
+                <div class="footer__link-wrapper">
+                    <a href="pages/allphoto.html" class="footer__link footer__link-red">
+                        View all
+                    </a>
+                </div>
+                <a href="pages/contact.html" class="footer__link">
+                    contact
+                </a>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+    </script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/modal.js"></script>
+</body>
+</html>
