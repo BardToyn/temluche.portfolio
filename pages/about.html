@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../styles/app.css">
     <link rel="stylesheet" href="../styles/media.css">
     <title>Tasya photography portfolio | About me</title>
-    <meta name="description" content="My Portfolio">
+    <meta name="description" content="Профессиональный фотограф в Москве Никита Широков. Качественная фотосъемка высокого уровня. Разумные цены, гарантия результата!">
+    <meta name="keywords" content="photo, фотограф, портретная, пейзажная">
 </head>
 <body>
     <header class="header">
@@ -19,11 +20,16 @@
         <a href="#" class="header__link" id="aboutLink">
             about
         </a>
-        <button class="header__burger-btn">
+        <button class="header__burger-btn" onclick="burgerBtn()">
             <div class="burger-line"></div>
             <div class="burger-line"></div>
             <div class="burger-line"></div>
         </button>
+        <div class="dropdown-off" id="burgerDropDown">
+            <a class="dropdown-link" href="../index.html">Home</a>
+            <a class="dropdown-link" href="allphoto.html">Project</a>
+            <a class="dropdown-link" href="contact.html">Contact</a>
+        </div>
     </header>
     <div class="section-wrapper">
         <h1 class="section-heading">
@@ -63,5 +69,6 @@
             </a>
         </nav>
     </footer>
+    <script src="../scripts/burger.js"></script>
 </body>
 </html>
