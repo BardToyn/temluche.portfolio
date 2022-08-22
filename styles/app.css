@@ -184,10 +184,6 @@ body {
     z-index: 10;
 }
 
-.section-heading-span {
-    margin-bottom: 1%;
-}
-
 .slider-wrapper {
     padding-top: 5%;
 }
@@ -258,8 +254,6 @@ body {
     text-transform: uppercase;
 }
 
-/*about*/
-
 .section-container {
     display: var(--flex);
 }
@@ -281,8 +275,6 @@ body {
     margin-bottom: 4%;
 }
 
-/*contact*/
-
 .section-heading {
     position: relative;
     margin-bottom: 4%;
@@ -292,8 +284,6 @@ body {
 .section-item {
     margin: 6% 0;
 }
-
-/*allphotos*/
 
 .section-photo {
     display: var(--flex);
@@ -315,8 +305,6 @@ body {
 .allproject-heading {
     top: 0;
 }
-
-/*modal*/
 
 #modal {
     display: none;

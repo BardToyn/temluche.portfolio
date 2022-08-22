@@ -75,7 +75,7 @@
         align-items: var(--cntr);
         flex-direction: column;
         left: 0;
-        top: 100px;
+        top: 80px;
         z-index: 20;
         background-color: var(--clr-body);
     }
